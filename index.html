@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+        }
+        body{display: flex;
+            flex-direction: row;}
+        img{width: 100%;}
+        section{border: 0.2em solid orangered;
+                border-radius: 0.2em;
+                min-width: 100px;
+                max-width: 800px;
+                height: 500px;
+                padding: 3em;
+                background-color: blueviolet;}
+        section img{width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;}
+    </style>
+</head>
+<body>
+    <section>
+        <img src="img/horizontal.jpg" alt="">
+    </section>
+    <section>
+        <img src="img/vertical.jpg" alt="">
+    </section>
+</body>
+</html>
